@@ -1,0 +1,16 @@
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\bin\Debug\Brundy3DX.exe.config
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\bin\Debug\Brundy3DX.exe
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\bin\Debug\Brundy3DX.pdb
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.Form1.resources
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.Properties.Resources.resources
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.csproj.GenerateResource.cache
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.exe
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.pdb
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\bin\Debug\GMap.NET.Core.dll
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.csproj.CopyComplete
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.Views.DashBoard.resources
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.Views.Mapa.resources
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.Views.Registros.resources
