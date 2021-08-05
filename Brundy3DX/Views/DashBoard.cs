@@ -21,5 +21,14 @@ namespace Brundy3DX.Views
         {
 
         }
+
+        private void dgvDashBoard_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+        }
+
+        private void dgvDashBoard_ColumnHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            lblNombreMedicion.Text = "Nombre: " + dgvDashBoard.Columns[e.ColumnIndex].HeaderText;
+        }
     }
 }

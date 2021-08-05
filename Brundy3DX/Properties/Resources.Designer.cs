@@ -103,6 +103,16 @@ namespace Brundy3DX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap labrats {
+            get {
+                object obj = ResourceManager.GetObject("labrats", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap map_35px {
             get {
                 object obj = ResourceManager.GetObject("map_35px", resourceCulture);

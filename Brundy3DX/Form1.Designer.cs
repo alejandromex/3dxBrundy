@@ -31,14 +31,15 @@ namespace Brundy3DX
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelTop = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnTest = new System.Windows.Forms.PictureBox();
             this.btnRestart = new System.Windows.Forms.PictureBox();
             this.btnStop = new System.Windows.Forms.PictureBox();
             this.btnStart = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRegistros = new System.Windows.Forms.Button();
             this.btnMapa = new System.Windows.Forms.Button();
             this.btnDashBoard = new System.Windows.Forms.Button();
@@ -50,11 +51,13 @@ namespace Brundy3DX
             ((System.ComponentModel.ISupportInitialize)(this.btnStop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnStart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(235)))), ((int)(((byte)(238)))));
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.btnRegistros);
             this.panel1.Controls.Add(this.btnMapa);
             this.panel1.Controls.Add(this.btnDashBoard);
@@ -74,6 +77,17 @@ namespace Brundy3DX
             this.panelTop.TabIndex = 1;
             this.panelTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTop_MouseDown);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(3, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(187, 29);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "3DX Ingenieria";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(246)))));
@@ -86,17 +100,6 @@ namespace Brundy3DX
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(848, 50);
             this.panel3.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 29);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "3DX Ingenieria";
             // 
             // lblTitulo
             // 
@@ -159,6 +162,16 @@ namespace Brundy3DX
             this.btnExit.TabIndex = 0;
             this.btnExit.TabStop = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Brundy3DX.Properties.Resources.labrats;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 445);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 36);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // btnRegistros
             // 
@@ -234,6 +247,7 @@ namespace Brundy3DX
             ((System.ComponentModel.ISupportInitialize)(this.btnStop)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnStart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -253,6 +267,7 @@ namespace Brundy3DX
         private System.Windows.Forms.Button btnDashBoard;
         private System.Windows.Forms.Button btnMapa;
         private System.Windows.Forms.Button btnRegistros;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

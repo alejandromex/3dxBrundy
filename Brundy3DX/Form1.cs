@@ -19,6 +19,10 @@ namespace Brundy3DX
 
         private Point spawnPositionViews = new Point(176, 107);
         Object lastViewInScreen;
+        Button buttonSelected;
+
+        Color colorSelected = Color.White;
+        Color colorNormal = Color.FromArgb(255, 233, 235, 238);
 
         [DllImportAttribute("user32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
@@ -30,6 +34,8 @@ namespace Brundy3DX
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
+            buttonSelected = btnDashBoard;
+            buttonSelected.BackColor = Color.White;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -63,6 +69,11 @@ namespace Brundy3DX
 
         private void btnDashBoard_Click(object sender, EventArgs e)
         {
+            buttonSelected.BackColor = colorNormal;
+
+            buttonSelected = btnDashBoard;
+            buttonSelected.BackColor = colorSelected;
+
             Controls.Remove((Control)lastViewInScreen);
             DashBoard dash = new DashBoard();
             dash.Location = spawnPositionViews;
@@ -73,6 +84,11 @@ namespace Brundy3DX
 
         private void btnMapa_Click(object sender, EventArgs e)
         {
+            buttonSelected.BackColor = colorNormal;
+
+            buttonSelected = btnMapa;
+            buttonSelected.BackColor = colorSelected;
+
             Controls.Remove((Control)lastViewInScreen);
             Mapa map = new Mapa();
             map.Location = spawnPositionViews;
@@ -81,19 +97,23 @@ namespace Brundy3DX
             lblTitulo.Text = "Mapa";
         }
 
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
-        {
-
-        }
-
         private void btnRegistros_Click(object sender, EventArgs e)
         {
+            buttonSelected.BackColor = colorNormal;
+
+            buttonSelected = btnRegistros;
+            buttonSelected.BackColor = colorSelected;
+
             Controls.Remove((Control)lastViewInScreen);
             Registros registros = new Registros();
             registros.Location = spawnPositionViews;
             lastViewInScreen = registros;
             Controls.Add(registros);
             lblTitulo.Text = "Registros";
+        }
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
         }
     }
 }

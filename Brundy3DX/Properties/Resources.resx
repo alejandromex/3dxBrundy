@@ -121,6 +121,9 @@
   <data name="stop_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stop_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="delete_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="restart_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\restart_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,22 +133,22 @@
   <data name="play_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\play_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\map_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="exit_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exit_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="delete_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="map_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PCR Test_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PCR Test_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bulleted_list_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulleted_list_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="chart_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chart_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bulleted_list_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bulleted_list_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="labrats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labrats.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

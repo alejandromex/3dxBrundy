@@ -63,6 +63,7 @@ namespace Brundy3DX.Views
             this.gMapa.Size = new System.Drawing.Size(525, 396);
             this.gMapa.TabIndex = 0;
             this.gMapa.Zoom = 0D;
+            this.gMapa.Load += new System.EventHandler(this.gMapa_Load);
             // 
             // label1
             // 

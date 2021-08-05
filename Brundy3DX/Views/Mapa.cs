@@ -42,5 +42,10 @@ namespace Brundy3DX.Views
             gMapa.Zoom = 9;
             gMapa.AutoScroll = true;
         }
+
+        private void gMapa_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

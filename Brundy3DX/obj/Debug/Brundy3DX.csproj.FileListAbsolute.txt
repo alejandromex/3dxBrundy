@@ -14,3 +14,7 @@ C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.csproj.Cop
 C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.Views.DashBoard.resources
 C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.Views.Mapa.resources
 C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.Views.Registros.resources
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\bin\Debug\Brundy3DX.exe.manifest
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\bin\Debug\Brundy3DX.application
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.exe.manifest
+C:\Users\USUARIO\source\repos\Brundy3DX\Brundy3DX\obj\Debug\Brundy3DX.application
